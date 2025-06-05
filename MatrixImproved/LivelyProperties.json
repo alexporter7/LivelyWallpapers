@@ -10,11 +10,29 @@
     "tick": 25,
     "text": "Rainbow Speed",
     "type": "slider",
-    "value": 50
+    "value": 50,
+    "step": 1
   },
   "rainBow": {
     "type": "checkbox",
     "value": false,
     "text": "Rainbow"
+  },
+  "useCustomCharacters": {
+    "type": "checkbox",
+    "text": "Use Custom Characters",
+    "value": false
+  },
+  "customCharacters": {
+    "type": "textbox",
+    "value": ""
+  },
+  "fontSize": {
+    "type": "slider",
+    "text": "Font Size",
+    "max": 30,
+    "min": 8,
+    "step": 1,
+    "value": 14
   }
 }
